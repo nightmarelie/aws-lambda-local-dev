@@ -1,0 +1,16 @@
+{
+  "name": "aws-lambda-local-dev",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:nightmarelie/aws-lambda-local-dev.git",
+  "author": "Oleksii Kryvtsov <nightmarelie@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "run:dev": "nodemon dev-server.js"
+  },
+  "devDependencies": {
+    "express": "^4.17.2",
+    "lambda-local": "^2.0.1",
+    "nodemon": "^2.0.15"
+  }
+}
